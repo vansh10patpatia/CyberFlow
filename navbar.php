@@ -6,11 +6,11 @@
                             <ul class="nav-menu">
                                 <li>
                                     <br>       
-                                        <img src="assets/img/1.png" width="50px" height="50px" style="border-radius:50%" /> 
+                                        <img src="assets/img/1.png" width="50px" height="50px" style="border-radius:50%" class="upperimg"/> 
                                 </li>
                                 <li>
                                     <br>
-                                    <b><h2 class="display-6" style="font-size:5vh">Cyber Flow</h2></b>
+                                    <b><h2 class="display-6 cyberflow" style="font-size:5vh">Cyber Flow</h2></b>
                                 </li>
                             </ul>
                             <div class="nav-toggle"></div>

@@ -24,7 +24,7 @@
 								</div>
 							</div>
   						
-							<div class="col-lg-2" style="margin-left:0px">
+							<div class="col-lg-2 footin2" style="margin-left:0px">
 								<div class="footer-widget">
 									<b><h4 style="color: black;">
 										About
@@ -40,7 +40,7 @@
 									
 								</div>
 							</div>		
-							<div class="col-lg-2" style="padding:0">
+							<div class="col-lg-2 footin2" style="padding:0">
 								<div class="footer-widget">
 									<b><h4 style="color: black;">
 										Company
@@ -56,7 +56,7 @@
 									
 								</div>
 							</div>
-							<div class="col-lg-2 col-md-2" style="padding:0">
+							<div class="col-lg-2 col-md-2 footin2" style="padding:0">
 								<div class="footer-widget">
 									<b><h4 style="color: black;">
 										Support
@@ -73,7 +73,7 @@
 									
 								</div>
 							</div>
-							<div class="col-lg-2 col-md-2" style="padding:0">
+							<div class="col-lg-2 col-md-2 footin2" style="padding:0">
 								<div class="footer-widget">
 									<b><h4 style="color: black;">
 										Get In Touch
@@ -82,7 +82,7 @@
 									<div class="footer-add">
 										
 											<p style="margin:0">Question or Feedback</p>
-											<p>We'd Love to hear from you!</p>
+											<p>Love to hear from you!</p>
 											
 									</div>
 									

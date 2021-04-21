@@ -94,12 +94,19 @@ require_once "lib/core.php";
             @media only screen and (max-width: 600px) {
                 #getstarted,#video{
                     width:100%;
-                    align-self:center
+                    align-self:center;
              }
+             #video{padding-left:0;
+                width:95%;}
              .img{
                  height:99.9%;
                  width:99.9%;
              }
+             .footin2{
+                 width:50%;
+             }
+             .upperimg{ position:relative; top:25px;}
+             .cyberflow{ position:relative;top:-44px;left:58px}
              .topbutton{
                  width:50%;
              }
