@@ -6,7 +6,7 @@
 			<!-- ============================ Footer Start ================================== -->
 			<footer class="dark-footer skin-dark-footer" style="background-color:#F8F8F8">
 				
-					<div class="container" id="iamfoot" style="margin-left:70px;margin: right 20px !important;">
+					<div class="container" id="iamfoot" style="margin-left:0px;">
 						<div class="row" >
 							<div class="col-lg-1"></div>
 							<div class="col-lg-3 col-md-3" style="margin-right:0px;">

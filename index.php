@@ -10,7 +10,7 @@ require_once "navbar.php";
 			<div class="col-md-1"></div>
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 start" style="align-self:center">
 				<h2 style="align-items:center;font-size:7vh;align-self:center;margin-bottom:20px;margin-top:20px">Smart Ideas For Your Brand Are Here</h2>
-				<h5 style="align-items:flex-end;font-size:2.8vh;align-self:flex-end;color:#888888">
+				<h5 style="align-items:flex-end;font-size:2.8vh;align-self:flex-end;color:#888888" class="motto">
 					 Our motto is to fulfill customer demand by makin them satisfied with growing their business. 
  				</h5>
 				 <div class="row" style="margin-top:40px">
@@ -24,10 +24,35 @@ require_once "navbar.php";
 
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
-				<div class="">
+				<!-- <div class="">
 					<img src="assets/img/front.png" class="img"/>
+				</div> -->
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<!-- <ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol> -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+						<img class="d-block w-100 img" src="assets/img/front.png" alt="First slide">
+						</div>
+						<div class="carousel-item">
+						<img class="d-block w-100 img" src="assets/img/eye.png" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+						<img class="d-block w-100 img" src="assets/img/phoneUI.png" alt="Third slide">
+						</div>
+					</div>
+					<!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a> -->
 				</div>
-				 
 			</div>
 			<!-- <img src="assets/img/google.jpeg"  class="img" style="position:absolute;height:3.5%;width:52%;top:500px;right:0px"/> -->
 		</div>
@@ -103,7 +128,7 @@ require_once "navbar.php";
 		<div class="row">
 
 			<div class="col-lg-6 col-md-6" style="margin-left:0px">
-				<div class="property-slide">
+				<div class="property">
 					
 					<!-- Single Property -->
 					<div class="single-items">
@@ -128,7 +153,7 @@ require_once "navbar.php";
 							<div class="listing-detail-footer" style="margin-top: 0;background-color:#F8F8F8;border:0">
 								<div class="footer-first">
 									<h3>Task Management App</h3>
-									<h6>This is a task Management application that can help you be more productive by scheduling important things that you want to do today!</h6>
+									<h6 class="info">This is a task Management application that can help you be more productive by scheduling important things that you want to do today!</h6>
 								</div>
 							</div>
 							
@@ -136,7 +161,7 @@ require_once "navbar.php";
 					</div>
 					
 				</div>
-				<div class="property-slide">
+				<div class="property">
 					
 					<!-- Single Property -->
 					<div class="single-items">
@@ -161,7 +186,7 @@ require_once "navbar.php";
 							<div class="listing-detail-footer" style="margin-top: 0;background-color:#F8F8F8;border:0">
 								<div class="footer-first">
 									<h3>Food Delivery App</h3>
-									<h6>This is a Food Delivery application with a fun and morder theme according to the wishes of our clients and this is the result we provide with a fresh and mordern look!</h6>
+									<h6 class="info">This is a Food Delivery application with a fun and morder theme according to the wishes of our clients and this is the result we provide with a fresh and mordern look!</h6>
 								</div>
 							</div>
 							
@@ -171,7 +196,7 @@ require_once "navbar.php";
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6">
-				<div class="property-slide">
+				<div class="property">
 					
 					<!-- Single Property -->
 					<div class="single-items">
@@ -196,7 +221,7 @@ require_once "navbar.php";
 							<div class="listing-detail-footer" style="margin-top: 0;background-color:#F8F8F8;border:0">
 								<div class="footer-first">
 									<h3>Furniture Landing Page</h3>
-									<h6>This is a Furniture landing Page for our clients with a mordern and classic theme which is usefulfor their furniture sale website!</h6>
+									<h6 class="info">This is a Furniture landing Page for our clients with a mordern and classic theme which is usefulfor their furniture sale website!</h6>
 								</div>
 							</div>
 							
@@ -204,7 +229,7 @@ require_once "navbar.php";
 					</div>
 					
 				</div>
-				<div class="property-slide">
+				<div class="property">
 					
 					<!-- Single Property -->
 					<div class="single-items">
@@ -229,7 +254,7 @@ require_once "navbar.php";
 							<div class="listing-detail-footer" style="margin-top: 0;background-color:#F8F8F8;border:0">
 								<div class="footer-first">
 									<h3>Cleaning Service App</h3>
-									<h6>This is a cleaning service application that is useful for hiring a cleaning service to clean the house using a fun and mordern theme with green!</h6>
+									<h6 class="info">This is a cleaning service application that is useful for hiring a cleaning service to clean the house using a fun and mordern theme with green!</h6>
 								</div>
 							</div>
 							
@@ -264,8 +289,8 @@ require_once "navbar.php";
 				<h2  style="font-size:2.5rem;">What our Customer Says About Us</h2>
 			</div>
 			<div class="col-lg-7 col-md-7 col-sm-6 col-xs-6" style="display:flex;flex:1;justify-content:flex-end">
-				<button class="btn btn-light prevAndnext"><i class="bi bi-chevron-left"></i></button>
-				<button class="btn btn-light prevAndnext" style="background-color:#4CAF70;margin-left:20px" ><i class="bi bi-chevron-right"></i></button>
+				<button class="btn btn-light prevAndnext " id="revPrev"><i class="bi bi-chevron-left"></i></button>
+				<button class="btn btn-light prevAndnext "  id="revNext" style="margin-left:20px" ><i class="bi bi-chevron-right"></i></button>
 			</div>
 		</div>
 		<!-- <div class="row">
@@ -287,7 +312,7 @@ require_once "navbar.php";
 			</div>
 			
 		</div> -->
-		<div class="row justify-content-center">
+		<!-- <div class="row justify-content-center">
 						
 			<div class="col-lg-12 col-md-12">
 				
@@ -423,7 +448,133 @@ require_once "navbar.php";
 					</div></div></div></div>
 			</div>
 			
-		</div>
+		</div> -->
+		<div class="row justify-content-center">
+						
+						<div class="col-lg-12 col-md-12">
+							
+							<div class="smart-textimonials smart-center" id="smart-textimonials">
+								
+								<!-- Single Item -->
+								<div class="item">
+									<div class="item-box">
+										<div class="smart-tes-author">
+											<div class="st-author-box">
+												<div class="st-author-thumb">
+													<div class="quotes bg-green"><i class="ti-quote-right"></i></div>
+													<img src="assets/img/user-3.jpg" class="img-fluid" alt="" />
+												</div>
+											</div>
+										</div>
+										
+										<div class="smart-tes-content" >
+											<center><p>I am very happy to join CyberFlow and the team is so hard-working works on your skills even if you dont have any knowledge the are happy to help!</p></center>
+										</div>
+										
+										<div class="st-author-info">
+											<h4 class="st-author-title">Adam Williams</h4>
+											<span class="st-author-subtitle">CEO Of Microwoft</span>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Single Item -->
+								<div class="item">
+									<div class="item-box">
+										<div class="smart-tes-author">
+											<div class="st-author-box">
+												<div class="st-author-thumb">
+													<div class="quotes bg-green"><i class="ti-quote-right"></i></div>
+													<img src="assets/img/user-8.jpg" class="img-fluid" alt="" />
+												</div>
+											</div>
+										</div>
+										
+										<div class="smart-tes-content">
+											<center><p>I am very happy to join CyberFlow and the team is so hard-working works on your skills even if you dont have any knowledge the are happy to help!</p></center>
+										</div>
+										
+										<div class="st-author-info">
+											<h4 class="st-author-title">Retha Deowalim</h4>
+											<span class="st-author-subtitle">CEO Of Apple</span>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Single Item -->
+								<div class="item">
+									<div class="item-box">
+										<div class="smart-tes-author">
+											<div class="st-author-box">
+												<div class="st-author-thumb">
+													<div class="quotes bg-green"><i class="ti-quote-right"></i></div>
+													<img src="assets/img/user-4.jpg" class="img-fluid" alt="" />
+												</div>
+											</div>
+										</div>
+										
+										<div class="smart-tes-content">
+											<center><p>I am very happy to join CyberFlow and the team is so hard-working works on your skills even if you dont have any knowledge the are happy to help!</p></center>
+										</div>
+										
+										<div class="st-author-info">
+											<h4 class="st-author-title">Sam J. Wasim</h4>
+											<span class="st-author-subtitle">Pio Founder</span>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Single Item -->
+								<div class="item">
+									<div class="item-box">
+										<div class="smart-tes-author">
+											<div class="st-author-box">
+												<div class="st-author-thumb">
+													<div class="quotes bg-green"><i class="ti-quote-right"></i></div>
+													<img src="assets/img/user-5.jpg" class="img-fluid" alt="" />
+												</div>
+											</div>
+										</div>
+										
+										<div class="smart-tes-content">
+											<center><p>I am very happy to join CyberFlow and the team is so hard-working works on your skills even if you dont have any knowledge the are happy to help!</p></center>
+										</div>
+										
+										<div class="st-author-info">
+											<h4 class="st-author-title">Usan Gulwarm</h4>
+											<span class="st-author-subtitle">CEO Of Facewarm</span>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Single Item -->
+								<div class="item">
+									<div class="item-box">
+										<div class="smart-tes-author">
+											<div class="st-author-box">
+												<div class="st-author-thumb">
+													<div class="quotes bg-success"><i class="ti-quote-right"></i></div>
+													<img src="assets/img/user-6.jpg" class="img-fluid" alt="" />
+												</div>
+											</div>
+										</div>
+										
+										<div class="smart-tes-content">
+											<center><p>I am very happy to join CyberFlow and the team is so hard-working works on your skills even if you dont have any knowledge the are happy to help!</p></center>
+										</div>
+										
+										<div class="st-author-info">
+											<h4 class="st-author-title">Shilpa Shethy</h4>
+											<span class="st-author-subtitle">CEO Of Zapple</span>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+					</div>
+
 	</div>
 
 	
@@ -474,17 +625,23 @@ require_once "navbar.php";
 			include_once "js_links.php";
 		?>
 		<script>
-			$(".slider").slick({
-
-				centerMode: true, 
-				slidesToShow:2.5,
-			});
 			$(document).ready(function () {
 				$(".whatWeDo").hover(
 				function () {
 					$(".whatWeDo").removeClass('dashboard-wraper');
-					$(this).addClass("dashboard-wraper");
-				});
+					// $(this).fadeIn("slow");
+					$(this).addClass("dashboard-wraper");  					
+					// $(this).fadeIn('slow');
+				}); 
 			});
+			
+				// Enable Carousel Controls
+				$("#revPrev").click(function(){
+				$("#smart-textimonials").slick('slickPrev');;
+				});
+				$("#revNext").click(function(){
+				$("#smart-textimonials").slick('slickNext');;
+				});
+				
 		</script>
  

@@ -25,7 +25,14 @@ require_once "lib/core.php";
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/ font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.js"></script>
         <style type="text/css" rel="stylesheet">
+            .main-wrapper{
+                overflow-x:hidden;
+            }
              #subscribe{
                 margin-left:4rem;
                 margin-right: 4rem ;
@@ -37,6 +44,7 @@ require_once "lib/core.php";
                 margin-top:1rem;
                 margin-bottom:1rem;
             }
+            #revPrev:hover,#revNext:hover{background-color: #4CAF70; color:white}
             #subsbutton
             {
                 width:120%;
@@ -56,7 +64,7 @@ require_once "lib/core.php";
             {
                 padding-left:10px;
             }
-            .whyus{ margin-left:180px}
+            .whyus{ margin-left:30vw}
             .login{ background-color:#E9F3F0}
             .prevAndnext
             {
@@ -67,10 +75,32 @@ require_once "lib/core.php";
                 border-top-left-radius:300px ;
                 align-self: flex-end;
             }
-            .log{ margin-top:20px;margin-left:150px}
+            .whatWeDo{                    transition: width 8s;}
+            .whatWeDo:hover {
+                    /* width:200px;
+                    height: 200px;
+                    background: red; */
+                    width:101%;
+                    /* animation: fadeinout 2s linear forwards; */
+                }
+
+                /* @-webkit-keyframes fadeinout {
+                0%,100% { opacity: 0.5; }
+                50% { opacity: 1; }
+                }
+
+                @keyframes fadeinout {
+                0%,100% { opacity: 0.5; }
+                50% { opacity: 1; }
+                } */
+
+            .log{ margin-top:2vh;margin-left:1vw}
             .explore:hover{background-color:#4CAF70;
+                height:40% !important;
                  }
+                 .explore:hover h5{color:white;}
                 .white:hover{color:white}
+                .white{margin-top:10px;}
             .slider-image{
                 width:100%;
             }
@@ -90,8 +120,12 @@ require_once "lib/core.php";
                 border-radius:25px;
                 text-align:center;
             }
+            .motto{ margin:7px;}
+            .info{color:#888888;margin-top:15px;font-weight:200}
+            .logoOnphone{display:none}
 
             @media only screen and (max-width: 600px) {
+                .logoOnphone{display:block}
                 #getstarted,#video{
                     width:100%;
                     align-self:center;
@@ -114,9 +148,7 @@ require_once "lib/core.php";
                 .start{
                     margin:10px;
                 }
-                .nav-menu>.active>a{
-                    text-decoration: none;
-                }
+                
                 .whyus{ margin-left:5px}
                 .log{ margin-top:5px;margin-left:15px}
                 .login{ background-color:#fff}
@@ -187,6 +219,6 @@ require_once "lib/core.php";
         <!-- ============================================================== -->
         <!-- Main wrapper - style you can find in pages.scss -->
         <!-- ============================================================== -->
-        <div id="main-wrapper">
+        <div id="main-wrapper" style="overflow-x:hidden;">
 		
           

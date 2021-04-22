@@ -6,7 +6,7 @@
                             <ul class="nav-menu">
                                 <li>
                                     <br>       
-                                        <img src="assets/img/1.png" width="50px" height="50px" style="border-radius:50%" class="upperimg"/> 
+                                        <img src="assets/img/1.png" width="50px" height="50px" style="border-radius:50%;margin-right: 10px;" class="upperimg" /> 
                                 </li>
                                 <li>
                                     <br>
@@ -16,6 +16,7 @@
                             <div class="nav-toggle"></div>
 						</div>
 						<div class="nav-menus-wrapper" style="transition-property: none;">
+							<h4 style="margin:10px;" class="logoOnphone" > <img src="assets/img/1.png" width="50px" height="50px" style="border-radius:50%;margin-right: 10px;"  /> Cyber Flow</h4>
 							<ul class="nav-menu" >
 							
 								<li class="active whyus" id="home" onclick="active('home')" ><a href="#">Why Us</a></li>
@@ -28,7 +29,8 @@
                             </ul>
 								 
 							<ul class="nav-menu nav-menu-social align-to-right">
-								 
+								<!-- <img src="assets/img/1.png"  style="border-radius:50%;margin-right: 10px;" class="upperimg" />   -->
+								
 								 
 							</ul>
 						</div>
