@@ -7,7 +7,6 @@ require_once "lib/core.php";
 <!DOCTYPE html>
 <html lang="zxx">
 	
-<!-- Mirrored from themezhub.net/resido-live/resido/home-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Feb 2021 11:30:33 GMT -->
 <head>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -64,7 +63,7 @@ require_once "lib/core.php";
             {
                 padding-left:10px;
             }
-            .whyus{ margin-left:30vw}
+            #whyus{ margin-left:30vw}
             .login{ background-color:#E9F3F0}
             .prevAndnext
             {
@@ -99,6 +98,8 @@ require_once "lib/core.php";
                 height:40% !important;
                  }
                  .explore:hover h5{color:white;}
+                 .explore:hover h6{color:white;}
+                .login{margin-top:3px}
                 .white:hover{color:white}
                 .white{margin-top:10px;}
             .slider-image{
@@ -110,6 +111,10 @@ require_once "lib/core.php";
                 border-top-right-radius:300px ;
                 border-top-left-radius:300px ;
              }
+             .atag:hover{color:#4CAF70  !important;}
+             a:link{color:#4CAF70 !important}
+             a .atagexplore:link{text-decoration:none;color:#4CAF70 !important}
+             .bi-arrow-right{margin-top:1px !important;}
             .imageOver{
                 position:relative;
                 width:60px;
@@ -121,8 +126,9 @@ require_once "lib/core.php";
                 text-align:center;
             }
             .motto{ margin:7px;}
-            .info{color:#888888;margin-top:15px;font-weight:200}
+            .info{color:#888888;margin-top:15px;font-weight:400}
             .logoOnphone{display:none}
+            .logButton{height:20%  !important}
 
             @media only screen and (max-width: 600px) {
                 .logoOnphone{display:block}
@@ -149,7 +155,7 @@ require_once "lib/core.php";
                     margin:10px;
                 }
                 
-                .whyus{ margin-left:5px}
+                #whyus{ margin-left:5px}
                 .log{ margin-top:5px;margin-left:15px}
                 .login{ background-color:#fff}
 

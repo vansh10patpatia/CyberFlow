@@ -32,10 +32,10 @@
 
 									<div class="footer-add">
 										
-										<p><a href="#">About Us</a></p>
-										<p>	<a href="#">Features</a></p>
-										<p>	<a href="#">News</a></p>
-										<p>	<a href="#">Careers</a></p>
+										<p><a href="#" class="atag">About Us</a></p>
+										<p>	<a href="#" class="atag">Features</a></p>
+										<p>	<a href="#" class="atag">News</a></p>
+										<p>	<a href="#" class="atag">Careers</a></p>
 									</div>
 									
 								</div>
@@ -48,10 +48,10 @@
 
 									<div class="footer-add">
 										
-										<p><a href="#">Our Team</a></p>
-										<p><a href="#">Partner With Us</a></p>
-										<p><a href="#">FAQ</a></p>
-										<p><a href="#">Blogs</a></p>
+										<p><a href="#" class="atag">Our Team</a></p>
+										<p><a href="#" class="atag">Partner With Us</a></p>
+										<p><a href="#" class="atag">FAQ</a></p>
+										<p><a href="#" class="atag">Blogs</a></p>
 									</div>
 									
 								</div>
@@ -64,11 +64,11 @@
 
 									<div class="footer-add">
 										
-											<p><a href="#">Account</a></p>
-											<p><a href="#">Support Center</a></p>
-											<p><a href="#">Feedback</a></p>
-											<p><a href="#">Contact us</a></p>
-											<p><a href="#">Accesbility</a></p>
+										<p><a href="#" class="atag">Account</a></p>
+										<p><a href="#" class="atag">Support Center</a></p>
+										<p><a href="#" class="atag">Feedback</a></p>
+										<p><a href="#" class="atag">Contact us</a></p>
+										<p><a href="#" class="atag">Accesbility</a></p>
 									</div>
 									
 								</div>
@@ -82,7 +82,7 @@
 									<div class="footer-add">
 										
 											<p style="margin:0">Question or Feedback</p>
-											<p>Love to hear from you!</p>
+											<p>We'd Love to hear from you!</p>
 											
 									</div>
 									

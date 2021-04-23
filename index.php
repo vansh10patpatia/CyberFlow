@@ -69,7 +69,7 @@ require_once "navbar.php";
 	<div class="container" style="margin-top:40px;margin-bottom:40px;">
 		<div class="row" style="margin-bottom:40px">
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-				<H5 style="color:#32CD8A;font-weight:500">WHAT WE DO</H5>
+				<H5 style="color:#32CD8A;font-weight:bold">WHAT WE DO</H5>
 				<h2  style="font-size:2.5rem;">Perfect Solution for Your Business</h2>
 			</div>
 			<div class="col-lg-3"></div>
@@ -118,11 +118,11 @@ require_once "navbar.php";
 	<div class="container" style="margin-top:40px;margin-bottom:40px;">
 		<div class="row" style="margin-bottom:20px">
 			<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
-				<H5 style="color:#32CD8A;font-weight:500">OUR WORK</H5>
+				<H5 style="color:#32CD8A;font-weight:bold">OUR WORK</H5>
 				<h2  style="font-size:2.5rem;">Case Studies Are Conducted By Our Team</h2>
 			</div>
-			<div class="col-lg-7 col-md-7 col-sm-6 col-xs-6" style="display:flex;flex:1;justify-content:flex-end">
-				<button class="btn btn-light prevAndnext explore"><h5 class="white">Explore All Projects <i class="bi bi-arrow-right"></i></h5></button>
+			<div class="col-lg-7 col-md-7 col-sm-6 col-xs-6" style="display:flex;flex:1;justify-content:flex-end;align-self:center">
+				<a href="#" class="atagexplore"><h5 class="">Explore All Projects <i class="bi bi-arrow-right"></i></h5></a>
 			</div>
 		</div>
 		<div class="row">
@@ -153,7 +153,8 @@ require_once "navbar.php";
 							<div class="listing-detail-footer" style="margin-top: 0;background-color:#F8F8F8;border:0">
 								<div class="footer-first">
 									<h3>Task Management App</h3>
-									<h6 class="info">This is a task Management application that can help you be more productive by scheduling important things that you want to do today!</h6>
+									<h5 style="font-size:2.8vh;color:#888888" class="motto">
+										This is a task Management application that can help you be more productive by scheduling important things that you want to do today!</h5>
 								</div>
 							</div>
 							
@@ -186,7 +187,8 @@ require_once "navbar.php";
 							<div class="listing-detail-footer" style="margin-top: 0;background-color:#F8F8F8;border:0">
 								<div class="footer-first">
 									<h3>Food Delivery App</h3>
-									<h6 class="info">This is a Food Delivery application with a fun and morder theme according to the wishes of our clients and this is the result we provide with a fresh and mordern look!</h6>
+									<h5 style="font-size:2.8vh;color:#888888" class="motto">
+										This is a Food Delivery application with a fun and morder theme according to the wishes of our clients and this is the result we provide with a fresh and mordern look!</h5>
 								</div>
 							</div>
 							
@@ -221,7 +223,8 @@ require_once "navbar.php";
 							<div class="listing-detail-footer" style="margin-top: 0;background-color:#F8F8F8;border:0">
 								<div class="footer-first">
 									<h3>Furniture Landing Page</h3>
-									<h6 class="info">This is a Furniture landing Page for our clients with a mordern and classic theme which is usefulfor their furniture sale website!</h6>
+									<h5 style="font-size:2.8vh;color:#888888" class="motto">
+										This is a Furniture landing Page for our clients with a mordern and classic theme which is usefulfor their furniture sale website!</h5>
 								</div>
 							</div>
 							
@@ -254,7 +257,8 @@ require_once "navbar.php";
 							<div class="listing-detail-footer" style="margin-top: 0;background-color:#F8F8F8;border:0">
 								<div class="footer-first">
 									<h3>Cleaning Service App</h3>
-									<h6 class="info">This is a cleaning service application that is useful for hiring a cleaning service to clean the house using a fun and mordern theme with green!</h6>
+									<h5 style="font-size:2.8vh;color:#888888" class="motto">
+										This is a cleaning service application that is useful for hiring a cleaning service to clean the house using a fun and mordern theme with green!</h5>
 								</div>
 							</div>
 							
@@ -285,7 +289,7 @@ require_once "navbar.php";
 	<div class="container" style="margin-top:40px;margin-bottom:40px;">
 		<div class="row" style="margin-bottom:20px">
 			<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
-				<H5 style="color:#32CD8A;font-weight:500">TESTONOMIAL</H5>
+				<H5 style="color:#32CD8A;font-weight:bold">TESTONOMIAL</H5>
 				<h2  style="font-size:2.5rem;">What our Customer Says About Us</h2>
 			</div>
 			<div class="col-lg-7 col-md-7 col-sm-6 col-xs-6" style="display:flex;flex:1;justify-content:flex-end">
@@ -586,7 +590,7 @@ require_once "navbar.php";
 					<div class="col-lg-3 col-md-3"></div>
 					<div class="col-lg-6 col-md-6">
 						<center>
-							<H4 style="color:#32CD8A;font-weight:400">OUR SUBSCRIBE</H4>
+							<H4 style="color:#32CD8A;font-weight:bold">OUR SUBSCRIBE</H4>
 							<h2 id = "subscribe" style="font-size:2.5rem;">Subscribe To Get The Latest News About Us</h2>
 							<p id="psubs">We recommend you to subscribe to our daily newspaper, drop your email below to get daily updates about us</p>
 							<div class="full-search-2 eclip-search italian-search hero-search-radius shadow-hard mt-5" id="subsbar">

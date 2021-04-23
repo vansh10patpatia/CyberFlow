@@ -19,12 +19,12 @@
 							<h4 style="margin:10px;" class="logoOnphone" > <img src="assets/img/1.png" width="50px" height="50px" style="border-radius:50%;margin-right: 10px;"  /> Cyber Flow</h4>
 							<ul class="nav-menu" >
 							
-								<li class="active whyus" id="home" onclick="active('home')" ><a href="#">Why Us</a></li>
+								<li class="active " id="whyus" onclick="active('home')" ><a href="#">Why Us</a></li>
                                 <li class="" id="properties" onclick="active('properties')"><a href="#">Features</a></li>
 								<li class="" id="about" onclick="active('about')"><a href="#">About Us</a></li>
 								<li class="" id="contact" onclick="active('contact')"><a href="#">Contact Us</a></li>
-								<li class="log" ><button class="btn btn-light prevAndnext explore login"  type="button" style="border:0;font-size:1rem">
-								<h5 class="white"><i class="bi bi-box-arrow-right"></i> Login</h5></button></li>
+								<li class="log" ><button class="btn btn-light prevAndnext explore login"  type="button" id="logButton" style="border:0;font-size:1rem" height="70%">
+								<h6 class="white hLogin"><i class="bi bi-box-arrow-right"></i> Login</h6></button></li>
                                 
                             </ul>
 								 
