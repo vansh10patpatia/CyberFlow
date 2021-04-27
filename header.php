@@ -1,5 +1,5 @@
 <?php
-require_once "lib/core.php";
+// require_once "lib/core.php";
 
 
 
@@ -112,7 +112,8 @@ require_once "lib/core.php";
                 border-top-left-radius:300px ;
              }
              .atag:hover{color:#4CAF70  !important;}
-             a:link{color:#4CAF70 !important}
+             /* a:link{color:#4CAF70 !important} */
+             .atagexplore:hover{text-decoration:underline;color:#4CAF70 !important}
              a .atagexplore:link{text-decoration:none;color:#4CAF70 !important}
              .bi-arrow-right{margin-top:1px !important;}
             .imageOver{

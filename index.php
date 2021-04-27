@@ -122,7 +122,7 @@ require_once "navbar.php";
 				<h2  style="font-size:2.5rem;">Case Studies Are Conducted By Our Team</h2>
 			</div>
 			<div class="col-lg-7 col-md-7 col-sm-6 col-xs-6" style="display:flex;flex:1;justify-content:flex-end;align-self:center">
-				<a href="#" class="atagexplore"><h5 class="">Explore All Projects <i class="bi bi-arrow-right"></i></h5></a>
+				<a href="explore" class="atagexplore"><h5 class="">Explore All Projects <i class="bi bi-arrow-right"></i></h5></a>
 			</div>
 		</div>
 		<div class="row">
