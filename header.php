@@ -74,8 +74,11 @@
                 border-top-left-radius:300px ;
                 align-self: flex-end;
             }
-            #talk{padding-right:10px;
-            font-weight:400}
+            #contactCol{
+                margin-left:50px;
+            }
+            #talk{padding-right:40px;
+     }
             .whatWeDo{                    transition: width 8s;}
             .whatWeDo:hover {
                     /* width:200px;
@@ -136,8 +139,10 @@
 
             @media only screen and (max-width: 600px) {
                 
-            #talk{padding-right:10px;
-            font-weight:400}
+            #contactCol{
+                margin-left:5px;
+            }
+            #talk{padding-right:10px;}
                 .logoOnphone{display:block}
                 #getstarted,#video{
                     width:100%;

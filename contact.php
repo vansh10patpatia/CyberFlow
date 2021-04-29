@@ -9,7 +9,7 @@ require_once "navbar.php";
                          
  
 
-    <div class="page-title" style="background-color:#4CAF8A">
+    <!-- <div class="page-title" style="background-color:#4CAF8A">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -22,7 +22,7 @@ require_once "navbar.php";
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <section class="dashboard-wraper" >
         <!-- <div class="container-fluid">
         <center>
@@ -84,41 +84,40 @@ require_once "navbar.php";
 
 		<!-- row Start -->
 		<div class="row">
-                <div class="col-lg-1"></div>
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-6 col-md-6" style="margin-right:20px" id="contactCol">
 				<form method="post">
 					<div class="row">
                         
-					<h2>Let's Talk!</h2>
-					<h5 id="talk" style="font-family: 'Poppins', sans-serif;">
+					<h2 style="margin-bottom:10px">Let's Talk!</h2>
+                    <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh">
                         To request a quote or want to meet up for coffee,contact us directly or fill out the form and we will get back to you promptly!
-</h5>
+                    </h4>
 						<div class="col-lg-6 col-md-6">
 							<div class="form-group">
-								<label style="font-size:2.5vh">Name</label>
+								<label style="font-size:2.5;color:#4CAF70">Name</label>
 								<input type="text" name="name" class="form-control simple">
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6">
 							<div class="form-group">
-								<label style="font-size:2.5vh">Email</label>
+								<label style="font-size:2.5;color:#4CAF70">Email</label>
 								<input type="email" name="email" class="form-control simple">
 							</div>
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label style="font-size:2.5vh">Subject</label>
+						<label style="font-size:2.5;color:#4CAF70">Subject</label>
 						<input type="text" name="subject" class="form-control simple">
 					</div>
 
 					<div class="form-group">
-						<label style="font-size:2.5vh">Message</label>
+						<label style="font-size:2.5;color:#4CAF70">Message</label>
 						<textarea name="message" class="form-control simple"></textarea>
 					</div>
 
 					<div class="form-group">
-						<button class="btn btn-theme-light-2 rounded" type="submit" name="submit">Submit Request</button>
+						<button class="btn search-btn success" id="getstarted" type="button" style="background-color:#4CAF70;font-size:1rem;width:50%">Submit</button>
 					</div>
 			</form>
 				</div>
@@ -126,32 +125,32 @@ require_once "navbar.php";
 
 			<div class="col-lg-5 col-md-5">
 				<div class="contact-info">
-                <img src="assets/img/mssg.webp" class="img-fluid" height="400px" width="400px" alt="">
+                <img src="assets/img/bg3.jpg" class="img-fluid" height="400px" width="400px" alt="">
 
 					<div class="cn-info-detail">
 						<div class="cn-info-icon">
-							<i class="ti-home"></i>
+							<i class="ti-home" style="color:#4CAF70"></i>
 						</div>
 						<div class="cn-info-content">
-							<h4 class="cn-info-title">Reach Us</h4>
+							<h4 class="cn-info-title" style="color:#4CAF70">Reach Us</h4>
 							Collins Street West,<br>Victoria 8007,Mumbai,<br>249407				</div>
 					</div>
 
 					<div class="cn-info-detail">
 						<div class="cn-info-icon">
-							<i class="ti-email"></i>
+							<i class="ti-email" style="color:#4CAF70"></i>
 						</div>
 						<div class="cn-info-content">
-							<h4 class="cn-info-title">Drop A Mail</h4>
+							<h4 class="cn-info-title" style="color:#4CAF70">Drop A Mail</h4>
 							<a href="mailto:cyber.flow911@gmail.com" style="color:black" id="email">cyber.flow911@gmail.com</a>					</div>
 					</div>
 
 					<div class="cn-info-detail">
 						<div class="cn-info-icon">
-							<i class="ti-mobile"></i>
+							<i class="ti-mobile" style="color:#4CAF70"></i>
 						</div>
 						<div class="cn-info-content">
-							<h4 class="cn-info-title">Call Us</h4>
+							<h4 class="cn-info-title" style="color:#4CAF70">Call Us</h4>
 							9988997722						</div>
 					</div>
 
