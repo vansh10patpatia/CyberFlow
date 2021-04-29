@@ -99,6 +99,7 @@
                  }
                  .explore:hover h5{color:white;}
                  .explore:hover h6{color:white;}
+                 #email:hover{color:#4CAF70!important}
                 .login{margin-top:3px}
                 .white:hover{color:white}
                 .white{margin-top:10px;}

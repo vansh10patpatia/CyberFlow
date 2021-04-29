@@ -9,7 +9,7 @@ require_once "navbar.php";
                          
  
 
-    <div class="page-title" style="background-color:#4CAF70">
+    <div class="page-title" style="background-color:#4CAF8A">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -23,15 +23,14 @@ require_once "navbar.php";
             </div>
         </div>
     </div>
-    <section class="bg-light">
-        <div class="container-fluid">
+    <section class="bg-light" style="background-image: url(./assets/img/bg.jpg);opacity:0.95">
+        <!-- <div class="container-fluid">
         <center>
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex ">
                     <div class="col-lg-5 col-md-12">
                         <div class="dashboard-wraper">
                             
                             <form method="post" enctype="multipart/form-data">
-                                <!-- Basic Information -->
                                 <div class="form-submit">
                                     <h2 style="color: #4CAF70;"> Let's Talk</h2>
                                     <div class="submit-section">
@@ -67,7 +66,6 @@ require_once "navbar.php";
                                             
                                             <div class="form-group col-lg-9 col-md-12">
                                                 <button class="btn btn-success btn-block" type="submit" name="edit" width="200" >Submit</button>
-                                                <!-- Button trigger modal -->
                                             </div>
                     
                                         </div>
@@ -79,7 +77,90 @@ require_once "navbar.php";
                 
             </div>
         </center>
-        </div>
+        </div> -->
+        <section>
+
+	<div class="container">
+
+		<!-- row Start -->
+		<div class="row">
+			
+				<div class="col-lg-7 col-md-7">
+				<form method="post">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="form-group">
+								<label style="font-size:2.5vh">Name</label>
+								<input type="text" name="name" class="form-control simple">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="form-group">
+								<label style="font-size:2.5vh">Email</label>
+								<input type="email" name="email" class="form-control simple">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label style="font-size:2.5vh">Subject</label>
+						<input type="text" name="subject" class="form-control simple">
+					</div>
+
+					<div class="form-group">
+						<label style="font-size:2.5vh">Message</label>
+						<textarea name="message" class="form-control simple"></textarea>
+					</div>
+
+					<div class="form-group">
+						<button class="btn btn-theme-light-2 rounded" type="submit" name="submit">Submit Request</button>
+					</div>
+			</form>
+				</div>
+			
+
+			<div class="col-lg-5 col-md-5">
+				<div class="contact-info">
+
+					<h2>Get In Touch</h2>
+					<p> We are happy to help you out in any field related drop your name and email.  Thank You!</p>
+
+					<div class="cn-info-detail">
+						<div class="cn-info-icon">
+							<i class="ti-home"></i>
+						</div>
+						<div class="cn-info-content">
+							<h4 class="cn-info-title">Reach Us</h4>
+							Collins Street West,<br>Victoria 8007,Mumbai,<br>249407				</div>
+					</div>
+
+					<div class="cn-info-detail">
+						<div class="cn-info-icon">
+							<i class="ti-email"></i>
+						</div>
+						<div class="cn-info-content">
+							<h4 class="cn-info-title">Drop A Mail</h4>
+							<a href="mailto:cyber.flow911@gmail.com" style="color:black" id="email">cyber.flow911@gmail.com</a>					</div>
+					</div>
+
+					<div class="cn-info-detail">
+						<div class="cn-info-icon">
+							<i class="ti-mobile"></i>
+						</div>
+						<div class="cn-info-content">
+							<h4 class="cn-info-title">Call Us</h4>
+							9988997722						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		<!-- /row -->
+
+	</div>
+
+</section>
     </section>
 
     <?php
