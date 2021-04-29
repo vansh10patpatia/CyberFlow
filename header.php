@@ -132,6 +132,7 @@
             .logButton{height:20%  !important}
 
             @media only screen and (max-width: 600px) {
+                .cn-info-detail{margin-bottom:25px}
                 #icons{margin-top:5px}
                 #submitContact{width:50%}
             #contactCol{
