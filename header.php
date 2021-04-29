@@ -74,6 +74,8 @@
                 border-top-left-radius:300px ;
                 align-self: flex-end;
             }
+            #talk{padding-right:10px;
+            font-weight:400}
             .whatWeDo{                    transition: width 8s;}
             .whatWeDo:hover {
                     /* width:200px;
@@ -133,6 +135,9 @@
             .logButton{height:20%  !important}
 
             @media only screen and (max-width: 600px) {
+                
+            #talk{padding-right:10px;
+            font-weight:400}
                 .logoOnphone{display:block}
                 #getstarted,#video{
                     width:100%;

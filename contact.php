@@ -23,7 +23,7 @@ require_once "navbar.php";
             </div>
         </div>
     </div>
-    <section class="bg-light" style="background-image: url(./assets/img/bg.jpg);opacity:0.95">
+    <section class="dashboard-wraper" >
         <!-- <div class="container-fluid">
         <center>
             <div class="row d-flex ">
@@ -84,10 +84,15 @@ require_once "navbar.php";
 
 		<!-- row Start -->
 		<div class="row">
-			
-				<div class="col-lg-7 col-md-7">
+                <div class="col-lg-1"></div>
+				<div class="col-lg-6 col-md-6">
 				<form method="post">
 					<div class="row">
+                        
+					<h2>Let's Talk!</h2>
+					<h5 id="talk" style="font-family: 'Poppins', sans-serif;">
+                        To request a quote or want to meet up for coffee,contact us directly or fill out the form and we will get back to you promptly!
+</h5>
 						<div class="col-lg-6 col-md-6">
 							<div class="form-group">
 								<label style="font-size:2.5vh">Name</label>
@@ -121,9 +126,7 @@ require_once "navbar.php";
 
 			<div class="col-lg-5 col-md-5">
 				<div class="contact-info">
-
-					<h2>Get In Touch</h2>
-					<p> We are happy to help you out in any field related drop your name and email.  Thank You!</p>
+                <img src="assets/img/mssg.webp" class="img-fluid" height="400px" width="400px" alt="">
 
 					<div class="cn-info-detail">
 						<div class="cn-info-icon">
