@@ -77,26 +77,20 @@
             #contactCol{
                 margin-left:50px;
             }
-            #talk{padding-right:40px;
-     }
+            #talk{padding-right:40px;    }
+            #submitContact{width:30%; 
+                 border-bottom-left-radius:300px ;
+                border-bottom-right-radius:300px ;
+                border-top-right-radius:300px ;
+                border-top-left-radius:300px ;}
             .whatWeDo{                    transition: width 8s;}
+            #icons{margin-top:20px}
             .whatWeDo:hover {
-                    /* width:200px;
-                    height: 200px;
-                    background: red; */
+                  
                     width:101%;
-                    /* animation: fadeinout 2s linear forwards; */
                 }
 
-                /* @-webkit-keyframes fadeinout {
-                0%,100% { opacity: 0.5; }
-                50% { opacity: 1; }
-                }
-
-                @keyframes fadeinout {
-                0%,100% { opacity: 0.5; }
-                50% { opacity: 1; }
-                } */
+               
 
             .log{ margin-top:2vh;margin-left:1vw}
             .explore:hover{background-color:#4CAF70;
@@ -138,7 +132,8 @@
             .logButton{height:20%  !important}
 
             @media only screen and (max-width: 600px) {
-                
+                #icons{margin-top:5px}
+                #submitContact{width:50%}
             #contactCol{
                 margin-left:5px;
             }
