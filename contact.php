@@ -31,6 +31,11 @@ require_once "navbar.php";
 
 		<!-- row Start -->
 		<div class="row">
+        <div class="col-lg-5 col-md-5">
+				<div class="contact-info" >
+                    <img src="assets/img/bg3.jpg" class="img-fluid" style="margin-top:20px"  alt="">
+				</div>
+			</div>
 				<div class="col-lg-6 col-md-6" style="margin-right:20px" id="contactCol">
 				<form method="post">
 					<div class="row">
@@ -75,11 +80,7 @@ require_once "navbar.php";
 				</div>
 			
 
-			<div class="col-lg-5 col-md-5">
-				<div class="contact-info" >
-                    <img src="assets/img/bg3.jpg" class="img-fluid" style="margin-top:20px"  alt="">
-				</div>
-			</div>
+			
 
 		</div>
 		<!-- /row -->

@@ -63,6 +63,25 @@
             {
                 padding-left:10px;
             }
+            .underline-small{
+                color:#4CAF70;
+                display:inline-block;
+                position:relative;
+                margin-bottom:25px
+                
+            }
+            
+            .underline-small::after{
+                content:'';
+                height:4px;
+                width:40%;
+                background:#4CAF70;
+                position:absolute;
+                left:calc(40% - 10%);
+                bottom:-5px;
+
+                
+            }
             #whyus{ margin-left:30vw}
             .login{ background-color:#E9F3F0}
             .prevAndnext
@@ -223,7 +242,7 @@
         </style>
     </head>
 	
-    <body class="blue-skin">
+    <body class="blue-skin" >
 	
 		 <!-- ============================================================== -->
         <!-- Preloader - style you can find in spinners.css -->

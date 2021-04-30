@@ -21,7 +21,7 @@
 							
 								<li class="active navbars" id="whyus"  ><a href="index">Why Us</a></li>
                                 <li class="navbars" id="features" ><a href="#">Features</a></li>
-								<li class="navbars" id="about" ><a href="#">About Us</a></li>
+								<li class="navbars" id="about" ><a href="about-us">About Us</a></li>
 								<li class="navbars" id="contact" ><a href="contact">Contact Us</a></li>
 								<li class="log" ><button class="btn btn-light prevAndnext explore login"  type="button" id="logButton" style="border:0;font-size:1rem" height="70%">
 								<h6 class="white hLogin"><i class="bi bi-box-arrow-right"></i> Login</h6></button></li>
