@@ -130,7 +130,7 @@
                 border-top-right-radius:300px ;
                 border-top-left-radius:300px ;
              }
-             .atag:hover{color:#4CAF70  !important;}
+             .atag:hover,.socialLinks:hover{color:#4CAF70  !important;}
              /* a:link{color:#4CAF70 !important} */
              .atagexplore:hover{text-decoration:underline;color:#4CAF70 !important}
              a .atagexplore:link{text-decoration:none;color:#4CAF70 !important}

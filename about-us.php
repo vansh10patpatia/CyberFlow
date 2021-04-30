@@ -76,26 +76,105 @@ require_once "navbar.php";
         <!-- End of .container -->
     </section>
     <section class="latest-news section-padding" style="padding-top:50px;font-family: 'Jost',sans-serif;">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-sm-8">
-                <h3>Our journey</h3>
-                <p style="margin-top:30px">The story of CyberFlow started 2 years ago with a realization that there are millions of   small businesses who are dealing in offline trade and are willing to deal in online trade but due to the lack of proper knowledge and platform they are not able to do it. They are afraid of the complexity and the huge cost which would be required in starting an online business.
-                CyberFlow aims to abolish all the problems which one has to face in starting an online business. We have built a platform which will provide you withan online store in no time.
-                We wish that everyone should be able to sell online and do it well from the beginning with ease and confidence.
-                </p>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3>Our journey</h3>
+                    <p style="margin-top:30px">The story of CyberFlow started 2 years ago with a realization that there are millions of   small businesses who are dealing in offline trade and are willing to deal in online trade but due to the lack of proper knowledge and platform they are not able to do it. They are afraid of the complexity and the huge cost which would be required in starting an online business.
+                    CyberFlow aims to abolish all the problems which one has to face in starting an online business. We have built a platform which will provide you withan online store in no time.
+                    We wish that everyone should be able to sell online and do it well from the beginning with ease and confidence.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img alt="Our journey" src="assets/img/journey.jpg" style="width:100%;object-fit:contain">
+                </div>
             </div>
-            <div class="col-sm-4">
-                <img alt="Our journey" src="assets/img/journey.jpg" style="width:100%;object-fit:contain">
-            </div>
+            
         </div>
-        
-    </div>
     <!-- End of .container -->
     <div class="news-slider common-slider">
         <!-- End of .carousel-container -->
     </div>
     <!-- End of .news-slider -->
+    </section>
+    <section style="font-family: 'Jost',sans-serif;">
+        <div class="container text-center">
+            <div class="row">
+               
+                <!-- <div class="col-sm-4">
+                    <img alt="Our journey" src="assets/img/team.webp" style="width:100%;object-fit:contain">
+                </div> -->
+                <div class="col-sm-12">
+                    <h3 >Our Team</h3>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="sidebar-widgets">
+                                
+                                <div class="d-user-avater">
+                                    <img src="assets/img/user-1.jpg" class="img-fluid avater" alt="" style="background-color: #006E4C;" height="100">                                        
+                                    <div class="dashboard-wraper" style="bottom:35px">
+                                        <h3 >Mohit Kumar</h3>
+                                        <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh;color:#888880">
+                                            Founder and CEO
+                                        </h4>
+                                        <p style="color:white;display:flex;flex:1;justify-content:center;color:#888880;">
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-instagram" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-facebook" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-twitter-alt" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-linkedin" style="margin-right:30px"></i></a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" >
+                            <div class="sidebar-widgets">
+                                
+                                <div class="d-user-avater">
+                                    <img src="assets/img/user-3.jpg" class="img-fluid avater" alt="" style="background-color: #006E4C;" height="100">                                        
+                                    <div class="dashboard-wraper" style="bottom:35px">
+                                        <h3 >Pancham Sheoran</h3>
+                                        <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh;color:#888880;">
+                                            Software Developer
+                                        </h4>
+                                        <p style="color:white;display:flex;flex:1;justify-content:center;color:#888880;">
+                                            <a href="#"  class="socialLinks"  style="color:#888880"><i class="ti-instagram" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-facebook" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-twitter-alt" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-linkedin" style="margin-right:30px"></i></a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="sidebar-widgets">
+                                
+                                <div class="d-user-avater">
+                                    <img src="assets/img/user-7.jpg" class="img-fluid avater" alt="" style="background-color: #006E4C;" height="100">                                        
+                                    <div class="dashboard-wraper" style="bottom:35px">
+                                        <h3 >Mohit Kumar</h3>
+                                        <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh;color:#888880">
+                                            Founder and CEO
+                                        </h4>
+                                        <p style="color:white;display:flex;flex:1;justify-content:center;color:#888880">
+                                            <a href="#" class="socialLinks" style="color:#888880"><i class="ti-instagram" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks" style="color:#888880"><i class="ti-facebook" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks" style="color:#888880"><i class="ti-twitter-alt" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks" style="color:#888880"><i class="ti-linkedin" style="margin-right:30px"></i></a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </section>
 
 

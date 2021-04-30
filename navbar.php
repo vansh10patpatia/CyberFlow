@@ -19,7 +19,7 @@
 							<h4 style="margin:10px;" class="logoOnphone" > <img src="assets/img/1.png" width="50px" height="50px" style="border-radius:50%;margin-right: 10px;"  /> Cyber Flow</h4>
 							<ul class="nav-menu" >
 							
-								<li class="active navbars" id="whyus"  ><a href="index">Why Us</a></li>
+								<li class="active navbars " id="whyus"  ><a href="index">Why Us</a></li>
                                 <li class="navbars" id="features" ><a href="#">Features</a></li>
 								<li class="navbars" id="about" ><a href="about-us">About Us</a></li>
 								<li class="navbars" id="contact" ><a href="contact">Contact Us</a></li>
