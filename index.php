@@ -453,7 +453,7 @@ require_once "navbar.php";
 			</div>
 			
 		</div> -->
-		<div class="row justify-content-center">
+					<div class="row justify-content-center">
 						
 						<div class="col-lg-12 col-md-12">
 							

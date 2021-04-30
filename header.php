@@ -44,6 +44,7 @@
                 margin-bottom:1rem;
             }
             #revPrev:hover,#revNext:hover{background-color: #4CAF70; color:white}
+            #revPre:hover,#revNex:hover{background-color: #4CAF70; color:white}
             #subsbutton
             {
                 width:120%;
@@ -149,7 +150,7 @@
             .info{color:#888888;margin-top:15px;font-weight:400}
             .logoOnphone{display:none}
             .logButton{height:20%  !important}
-
+            #revNex,#revPre{height:100%}
             @media only screen and (max-width: 600px) {
                 .cn-info-detail{margin-bottom:25px}
                 #icons{margin-top:5px}

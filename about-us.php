@@ -97,17 +97,154 @@ require_once "navbar.php";
     </div>
     <!-- End of .news-slider -->
     </section>
-    <section style="font-family: 'Jost',sans-serif;">
+    <section style="font-family: 'Jost',sans-serif;background-image: url('assets/img/bg2.jpg')">
         <div class="container text-center">
+            <div class="row justify-content-center">
+						
+						<div class="col-lg-12 col-md-12">
+                        <h2 >Our Team</h2>
+                        <div class="row" style="margin-bottom:20px">
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+                                
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-6 col-xs-6" style="display:flex;flex:1;justify-content:flex-end">
+                                <button class="btn btn-light prevAndnext " id="revPre"><i class="bi bi-chevron-left"></i></button>
+                                <button class="btn btn-light prevAndnext "  id="revNex" style="margin-left:20px" ><i class="bi bi-chevron-right"></i></button>
+                            </div>
+		                </div>
+							<div class="smart-textimonials smart-center" id="smart-textimonials">
+								
+								<!-- Single Item -->
+
+										 <div class="sidebar-widgets">
+                                
+                                            <div class="d-user-avater">
+                                                <center>
+                                                    <img src="assets/img/user-1.jpg" class="img-fluid avater" alt="" style="background-color: #006E4C;" height="100">                                        
+                                                </center>
+                                                <div class="dashboard-wraper" style="bottom:35px;margin:15px;width:90%">
+                                                    <h3 >Mohit Kumar</h3>
+                                                    <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh;color:#888880">
+                                                        Founder and CEO
+                                                    </h4>
+                                                    <p style="color:white;display:flex;flex:1;justify-content:center;color:#888880;">
+                                                        <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-instagram" style="margin-right:30px"></i></a>
+                                                        <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-facebook" style="margin-right:30px"></i></a>
+                                                        <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-twitter-alt" style="margin-right:30px"></i></a>
+                                                        <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-linkedin" style="margin-right:30px"></i></a>
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+								
+								
+								<!-- Single Item -->
+                                <div class="sidebar-widgets">
+                                
+                                <div class="d-user-avater">
+                                    <center>
+                                        <img src="assets/img/user-2.jpg" class="img-fluid avater" alt="" style="background-color: #006E4C;" height="100">                                        
+                                    </center>
+                                    <div class="dashboard-wraper" style="bottom:35px;margin:15px;width:90%">
+                                        <h3 >Name</h3>
+                                        <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh;color:#888880;">
+                                          Desgination
+                                        </h4>
+                                        <p style="color:white;display:flex;flex:1;justify-content:center;color:#888880;">
+                                            <a href="#"  class="socialLinks"  style="color:#888880"><i class="ti-instagram" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-facebook" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-twitter-alt" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-linkedin" style="margin-right:30px"></i></a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+								
+								<!-- Single Item -->
+                                <div class="sidebar-widgets">
+                                
+                                <div class="d-user-avater">
+                                    <center>
+                                        <img src="assets/img/user-3.jpg" class="img-fluid avater" alt="" style="background-color: #006E4C;" height="100">                                        
+                                    </center>                                       
+                                    <div class="dashboard-wraper" style="bottom:35px;margin:15px;width:90%">
+                                        <h3 >Pancham Sheoran</h3>
+                                        <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh;color:#888880;">
+                                            Software Developer
+                                        </h4>
+                                        <p style="color:white;display:flex;flex:1;justify-content:center;color:#888880;">
+                                            <a href="#"  class="socialLinks"  style="color:#888880"><i class="ti-instagram" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-facebook" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-twitter-alt" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-linkedin" style="margin-right:30px"></i></a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+								
+								<!-- Single Item -->
+                                <div class="sidebar-widgets">
+                                
+                                <div class="d-user-avater">
+                                    <center>
+                                        <img src="assets/img/user-4.jpg" class="img-fluid avater" alt="" style="background-color: #006E4C;" height="100">                                        
+                                    </center>
+                                    <div class="dashboard-wraper" style="bottom:35px;margin:15px;width:90%">
+                                        <h3 >Name</h3>
+                                        <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh;color:#888880;">
+                                            Desgination
+                                        </h4>
+                                        <p style="color:white;display:flex;flex:1;justify-content:center;color:#888880;">
+                                            <a href="#"  class="socialLinks"  style="color:#888880"><i class="ti-instagram" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-facebook" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-twitter-alt" style="margin-right:30px"></i></a>
+                                            <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-linkedin" style="margin-right:30px"></i></a>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+								
+								<!-- Single Item -->
+                                <div class="sidebar-widgets">
+                                
+                                    <div class="d-user-avater">
+                                        <center>
+                                            <img src="assets/img/user-5.jpg" class="img-fluid avater" alt="" style="background-color: #006E4C;" height="100">                                        
+                                        </center>
+                                        <div class="dashboard-wraper" style="bottom:35px;margin:15px;width:90%">
+                                            <h3 >Name</h3>
+                                            <h4 class="cn-info-title" id="talk" style="margin-bottom:20px;font-size:2.5vh;color:#888880;">
+                                                Desgination
+                                            </h4>
+                                            <p style="color:white;display:flex;flex:1;justify-content:center;color:#888880;">
+                                                <a href="#"  class="socialLinks"  style="color:#888880"><i class="ti-instagram" style="margin-right:30px"></i></a>
+                                                <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-facebook" style="margin-right:30px"></i></a>
+                                                <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-twitter-alt" style="margin-right:30px"></i></a>
+                                                <a href="#" class="socialLinks"  style="color:#888880"><i class="ti-linkedin" style="margin-right:30px"></i></a>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+								
+							</div>
+						</div>
+						
+					</div>
+
             <div class="row">
                
                 <!-- <div class="col-sm-4">
                     <img alt="Our journey" src="assets/img/team.webp" style="width:100%;object-fit:contain">
                 </div> -->
-                <div class="col-sm-12">
-                    <h3 >Our Team</h3>
+                <!-- <div class="col-sm-12">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-12">
+                        <div class="smart-textimonials smart-center" id="smart-textimonials">
                             <div class="sidebar-widgets">
                                 
                                 <div class="d-user-avater">
@@ -127,8 +264,6 @@ require_once "navbar.php";
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4" >
                             <div class="sidebar-widgets">
                                 
                                 <div class="d-user-avater">
@@ -148,8 +283,6 @@ require_once "navbar.php";
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
                             <div class="sidebar-widgets">
                                 
                                 <div class="d-user-avater">
@@ -169,9 +302,11 @@ require_once "navbar.php";
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
-                </div>
+                        </div>
+                   
+                    </div>
+                </div> -->
             </div>
             
         </div>
@@ -187,6 +322,14 @@ require_once "js_links.php";
     <script>
         $(".navbars").removeClass("active");
         $("#about").addClass("active");
+        // Enable Carousel Controls
+				$("#revPre").click(function(){
+				$("#smart-textimonials").slick('slickPrev');;
+				});
+				$("#revNex").click(function(){
+				$("#smart-textimonials").slick('slickNext');;
+				});
+				
     </script>
 </html>
 
