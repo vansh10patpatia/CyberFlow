@@ -5,6 +5,9 @@
 background-image:url('../img/1.png');background-size: 50px;background-repeat: no-repeat;
 background-position: center;
 /* -webkit-animation:preloader 1.9s linear infinite;animation:preloader 1.5s linear infinite */
+-webkit-animation: spin 2s linear infinite;
+animation: spin 2s linear infinite;
+}
 } 
 
 
