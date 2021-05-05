@@ -9,7 +9,7 @@ require_once "navbar.php";
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 start" style="align-self:center">
-				<h2 style="align-items:center;font-size:7vh;align-self:center;margin-bottom:20px;margin-top:20px">Smart Ideas For Your Brand Are Here</h2>
+				<h2 style="align-items:center;font-size:7vh;align-self:center;margin-bottom:20px;margin-top:20px;margin-right:8px">Smart Ideas For Your Brand Are Here</h2>
 				<h5 style="align-items:flex-end;font-size:2.8vh;align-self:flex-end;color:#888888" class="motto">
 					 Our motto is to fulfill customer demand by makin them satisfied with growing their business. 
  				</h5>

@@ -96,7 +96,7 @@
 			
 			</footer>
 			<!--32CD8A-->
-			<section class="theme-bg call-to-act-wrap" style="background-color:#4CAF70;padding:10px 0">
+			<section class="theme-bg call-to-act-wrap" style="background-color:#4CAF70;padding:10px 0;border-bottom-left-radius:20px;border-bottom-right-radius:20px;">
   				<div class="row">
 					<div class="col-lg-8 col-md-8" style="padding-left:20px;margin-left:50px">
   						<p style="color:white;display:flex;flex:1;justify-content:flex-start">Copyright &copy; Cyber Flow 2020.</p>
